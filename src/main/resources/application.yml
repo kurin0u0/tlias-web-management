@@ -14,3 +14,5 @@ spring:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启驼峰命名映射开关
+    map-underscore-to-camel-case: true
